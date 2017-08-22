@@ -3,6 +3,7 @@ print("I will now count my chickens.")
 print("Hens", 25 + 30 / 6)
 # I have no clue that the modus does to this,
 # it doesn't seem to be how many times it goes into the usual operation
+# the comma is denoting lists
 print("Roosters", 100 - 25 * 3 % 4.0)
 # adding a decimal into a number seems to make it 3 sig fig.
 print("Now I will count the eggs:")
@@ -25,5 +26,6 @@ print("Is it greater?", 5 > -2)
 print("Is it greater or equal?", 5 >= -2)
 print("Is it less or equal?", 5 <= -2)
 ''' I don't know line 6 is 91. really don't and i'm trying to figure it out with
-the calcultor but my numbers dont match up. Gonna need to pester josh. 
+the calcultor but my numbers dont match up. Gonna need to pester josh. How do you
+use terminal as a calculator?
 '''
