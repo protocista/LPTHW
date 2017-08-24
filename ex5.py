@@ -23,14 +23,19 @@ dimension_in_cm = dimension * in_to_cm
 # how the heak do I even use the math function!
 
 # What does the f mean? why is it there?
+# Its stands for format, inserts the variables into the string
 print(f"Let's talk about {title}.")
-# short andlight, and using the female term of adress
+# short and light, and using the female term of adress
+# the brackets create holes and makes them find the variable
 print(f"She's {dimension_in_cm} centimeters short.")
 # making some of my own modifications to the code
 print(f"She's {mass_in_kg} kilo grams light.")
+# not having f, just prints whats in the line
 print("Actually thats very heavy.")
 print(f"She's got {optics} eyes and {pigment} hair.")
 print(f"Her teeth are usually {enamel} depending on the coffee.")
+# had to change lines 27 to 34 for the new variables, this part sucked
+# can add math expressions in the brackets
 
 # this line is tricky, try to get it exactly right
 total = shelflife + dimension_in_cm + mass_in_kg
