@@ -4,6 +4,8 @@ formatter = "{} {} {} {}"
 print(formatter.format(1, 2, 3, 4))
 # what would happen if I change the order?
 print(formatter.format(3, 1, 2, 4))
+# nothing really happened, so the order you place it in is
+# the order it is displayed
 print(formatter.format("one", "two", "three", "four"))
 print(formatter.format(True, False, False, True))
 print(formatter.format(formatter, formatter, formatter, formatter))
@@ -13,3 +15,4 @@ print(formatter.format(
 "Maybe a poem",
 "Or a song about fear"
 ))
+# watched video
