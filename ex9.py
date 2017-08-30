@@ -2,7 +2,7 @@
 
 days = "Mon Tues Wed Thu Fri Sat Sun"
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
-# the \n is saying new line
+# the \n is saying new line and just having it as \ it means special character
 
 print("Here are the days: ", days)
 print("Here are the months: ", months)
